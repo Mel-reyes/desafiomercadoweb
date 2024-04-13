@@ -1,4 +1,4 @@
-# Desafío - Abracadabra
+# Desafío - Mercado web
 ## Descripción
 
 Este desafío, se construye un servidor utilizando Express. Este servidor utiliza el motor de plantillas Handlebars para desarrollar componentes y renderizar variables e iteradores en el template del sitio web.
