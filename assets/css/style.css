@@ -1,0 +1,37 @@
+/* Estilos para el navbar */
+.navbar {
+    background-color: green;
+}
+
+/* Estilos para los elementos del carrito */
+#shoppingcaritems {
+    display: none; 
+}
+
+/* Estilos para las tarjetas de producto */
+.product-card {
+    width: calc(33.33% - 20px); /* Calcula el ancho de las tarjetas para 3 tarjetas por fila */
+    margin: 10px; /* Margen entre las tarjetas */
+    height: auto; /* Permitir que la altura se ajuste automáticamente */
+    background-color: white; /* Fondo blanco para mayor legibilidad */
+    padding: 1rem; /* Espaciado interno para mayor claridad */
+    border-radius: 0.5rem; /* Bordes redondeados */
+    box-shadow: 0 .125rem .25rem rgba(0, 0, 0, .075);
+}
+
+/* Efecto de sombra al pasar el mouse sobre las tarjetas de producto */
+.product-card:hover {
+    box-shadow: 0 .5rem 1rem rgba(0, 255, 0, .15);
+    transition: all .2s ease-in-out;
+}
+
+/* Estilos para los enlaces */
+a {
+    color: black;
+    text-decoration: none; 
+}
+
+/* Efecto de cambio de color al pasar el mouse sobre los enlaces */
+a:hover {
+    color: green;
+}
